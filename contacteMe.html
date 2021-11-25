@@ -29,24 +29,28 @@
                 <br>
                 <form>
                 <div class="campos">
-                    <label for="nome">Como tu gosta que te chamem?</label><br>
-                    <input type="text" id="nome">
+                    <label for="nome"><b>tu gosta que te chamem?</b> </label><br>
+                    <input type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome">...</div>
                 </div>
                 <div class="campos">
-                    <label for="email">Coloca teu e-mail ai pô:</label><br>
-                    <input type="email" id="email">
+                    <label for="email"> <b>Digita teu e-mail ai pô:</b></label><br>
+                    <input type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail">...</div>
                 </div>
                 <div class="textarea">
-                    <label for="assunto">Qual é a de menos?</label><br>
+                    <label for="assunto"><b>é a de menos?</b> </label><br>
                     <textarea 
                     name="assunto" 
                     id="assunto" 
                     cols="60" 
-                    rows="5">
+                    rows="5"
+                    onkeyup="validaAssunto()">
                 </textarea>
+                <div id="txtassunto">...</div>
                 </div>
 
-                <button>Dale sem medo</button>
+                <button onclick= 'enviar()' >Dale sem medo</button>
             </form>
             </div>
 
@@ -71,5 +75,6 @@
             <a href="https://www.instagram.com/diariodeumadev_/">Instagram</a>
     </footer>
     </div>
+    <script src="./assets/script/script.js"></script>
     </body>
 </html>
