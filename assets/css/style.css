@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/**PÁGINA INICIAL*/
+.fundo{
+    background: #e6d4f1;
+    min-height: 100vh;
+}
+.menu {
+    background: #cdb7e2;
+    display: flex;
+    justify-content: center;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: rgba(84, 52, 126, 0.829);
+    margin: 25px;
+    font-size: 40px;
+
+}
+.menu li a:hover  {
+    color: rgba(169, 136, 212, 0.904);
+    
+
+}
+.perfil {
+    color: #f4f4f4;
+    display: flex;
+    padding: 50px;
+    
+
+}
+.texto {
+    color: rgb(108, 75, 139);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto h1 {
+    color: rgb(100, 66, 133);
+    font-size: 50px;
+}
+.texto p {
+    font-size: 24px;
+    text-align: justify;
+    margin: 0 45px 0 0;
+}
+.fotoPerfil {
+    border: 10px double rgb(217, 197, 238);
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+
+}
+.video {
+    background: #e6d4f1;
+    display:flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(100, 66, 133);
+}
+.video h2 {
+    color: rgb(100, 66, 133);
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.video iframe {
+    border: 10px double rgb(217, 197, 238);
+}
+.footer{
+    background: #cdb7e2;
+    display: flex;
+    justify-content: center;
+}
+/**PAGINA DE CONTATO*/
+.formulario{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(100, 66, 133);
+}
+
+.formulario h2{
+    font-size: 35px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.campos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.campos input {
+    padding: 6px;
+    font-size: 18px;
+    border: 5px double rgb(100, 66, 133);
+}
+.textarea textarea{
+    border: 5px double rgb(100, 66, 133);
+}
+
+
+button {
+    margin-top: 10px;
+    border: 5px double rgb(100, 66, 133);
+    width: 100%;
+    padding: 10px;
+    color: rgb(100, 66, 133);
+    background: #e6d4f1;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+button:hover {
+    color: #e6d4f1;
+    background: rgb(100, 66, 133);
+    border: 5px double #e6d4f1;
+    font-weight: 700;
+}
+
+/**PÁGINA FURTACOR*/
+.sobre{
+    color: rgb(100, 66, 133);
+    display: flex;
+    padding: 80px;
+}
+.txtsobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.txtsobre h1 {
+    font-size: 50px;
+}
+
+.txtsobre p{
+    font-size: 24px;
+    text-align: justify;
+    margin: 0 45px 0 0;
+}
+.sobre img{
+    border: 10px double rgb(212, 188, 238);
+    border-radius: 50%;
+    height: 350px;
+}
+.videos{
+    color: rgb(100, 66, 133);
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    padding: 50px;
+}
+
+.videos iframe {
+    border: 5px double rgb(212, 188, 238);
+}
+.box {
+    margin: 15px;
+}
+.boxfotos{
+    margin: 30px;
+    display: flex;
+}
+.box img{
+    border: 5px double rgb(212, 188, 238);
+}

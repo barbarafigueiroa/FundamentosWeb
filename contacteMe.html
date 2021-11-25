@@ -5,60 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talk to me</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-        <li>
-            <a href="contato.html">Contato</a>
-        </li>
-    </ul>
+    <div class="fundo">
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">>><b>Home</b><<</a>
+                </li>
+                <li>
+                    <a href="contacteMe.html">>><b>Contato</b><<</a>
+                </li>
+                <li>
+                    <a href="furtacor.html">>><b>Furtacor</b><<</a>
+                </li>
+            </ul>
+        </div>
 
-    <h1>É aqui que tu me acha!</h1>
-    <p>
-        <a href="https://github.com/barbarafigueiroa">Clica aqui pra tu chegar no meu github</a><br>
-    </p>
-    <p>
-            <a href="https://www.linkedin.com/in/barbara-figueiroa/">E aqui tu acessa meu linkedin</a>
-    </p>
-    
+        <div class="formulario">
+            <div class="form">
+                <h2>Me fala tua ideia :)</h2>
+                <br>
+                <form>
+                <div class="campos">
+                    <label for="nome">Como tu gosta que te chamem?</label><br>
+                    <input type="text" id="nome">
+                </div>
+                <div class="campos">
+                    <label for="email">Coloca teu e-mail ai pô:</label><br>
+                    <input type="email" id="email">
+                </div>
+                <div class="textarea">
+                    <label for="assunto">Qual é a de menos?</label><br>
+                    <textarea 
+                    name="assunto" 
+                    id="assunto" 
+                    cols="60" 
+                    rows="5">
+                </textarea>
+                </div>
 
-    <form>
-        <p>
-            Diz qual é a bronca safada que a gente resolve!
-        </p>
-        <label for="nome">Como tu gosta que te chamem?</label><br>
-        <input type="text" id="nome">
-        <br>
-        <br>
+                <button>Dale sem medo</button>
+            </form>
+            </div>
 
-        <label for="email">Coloca teu e-mail ai coisinha:</label><br>
-        <input type="email" id="email">
-        <br>
-        <br>
-
-        <label for="assunto">Qual é a de menos?</label><br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <button>Dale sem medo</button>
-
-    </form>
-    <h2>
-        Onde você pode ir me buscar para comer:
-    </h2>
-    <p>Rua rui Barbosa, 486</p>
-    <p>Jangamaica</p>
-
-    <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.500927195846!2d-34.830950384714896!3d-7.94707358137128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3dc8a59cf22b%3A0xd7fe1ce779f537e4!2sR.%20Rui%20Barbosa%2C%20486%20-%20Janga%2C%20Paulista%20-%20PE%2C%2053439-360!5e0!3m2!1spt-BR!2sbr!4v1637684851540!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="250" 
-    style="border:0;" 
-    allowfullscreen="" 
-    loading="lazy">
-    </iframe>
-    
-</body>
+            <div class="mapa">
+                <h2>Onde tu pode ir me buscar pra comer um lanche:</h2>
+                <p>Rua rui Barbosa, 486</p>
+                <p>Jangamaica</p>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.500927195846!2d-34.830950384714896!3d-7.94707358137128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab3dc8a59cf22b%3A0xd7fe1ce779f537e4!2sR.%20Rui%20Barbosa%2C%20486%20-%20Janga%2C%20Paulista%20-%20PE%2C%2053439-360!5e0!3m2!1spt-BR!2sbr!4v1637684851540!5m2!1spt-BR!2sbr" 
+                    width="800" 
+                    height="500" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer class="">
+            <a href="https://www.linkedin.com/in/barbara-figueiroa/">Linkedin</a> |
+            <a href="https://www.instagram.com/diariodeumadev_/">Instagram</a>
+    </footer>
+    </div>
+    </body>
 </html>
